@@ -32,7 +32,7 @@
 
 | No. | Name | Student ID |
 |:---:|---|:---:|
-| 🥇 1 | **MD. Siam Afroz Tanmoy** | **0112230123** |
+| 1 | **MD. Siam Afroz Tanmoy** | **0112230123** |
 | 2 | Alfi Shahriar | 0112320293 |
 | 3 | Irfan Jafri | 0112410371 |
 | 4 | Naima Islam Nabila | 0112320270 |

@@ -1,5 +1,5 @@
 # 🪖 Helmet Detectors
-## AI-Based Smart Motorcycle Rider Safety, Monitoring, Accident Detection & Anti-Theft System
+## AI-Based Smart Helmet for Rider Safety, Monitoring & Accident Detection
 
 <p align="center">
 

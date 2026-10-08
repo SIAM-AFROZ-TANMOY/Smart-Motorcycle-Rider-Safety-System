@@ -1,0 +1,19 @@
+[Unit]
+Description=Rider-check VLM agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=vlm
+Group=vlm
+WorkingDirectory=/opt/vlm-agent
+EnvironmentFile=/etc/vlm-agent.env
+ExecStart=/opt/vlm-agent/venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+ProtectSystem=full
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

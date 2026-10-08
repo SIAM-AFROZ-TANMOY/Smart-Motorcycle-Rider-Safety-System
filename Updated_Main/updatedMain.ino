@@ -69,7 +69,7 @@ const char* HOSTNAME  = "helmet";            // -> http://helmet.local
 
 // ===========================  TELEGRAM  ==================================
 // The ESP32's Wi-Fi network needs internet access for the accident alert.
-const char* BOT_TOKEN = "8853140495:AAH20k2Dk7aiaqQMJiYEOWy2sfTQGAcsdyE";
+const char* BOT_TOKEN = "hi";
 const char* CHAT_ID   = "1935379929";        // start a chat with your bot first!
 // =========================================================================
 
@@ -2102,3 +2102,4 @@ void loop() {
     if (analogRead(GAS_PIN) > gasThreshold) beep(300);
   }
 }
+8853140495:AAH20k2Dk7aiaqQMJiYEOWy2sfTQGAcsdyE
